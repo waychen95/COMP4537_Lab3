@@ -38,7 +38,7 @@ class Server {
     handleDate(query, res) {
         const name = query.name || template.unknown_user
         const date = new Date()
-        const message = utils.Utils.getDate(name, date)
+        const message = utils.getDate(name, date)
         res.writeHead(200, {'Content-Type':'text/html'})
         res.end(message)
     }
