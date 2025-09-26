@@ -3,8 +3,6 @@ const template = require('./lang/messages/en/user')
 const http = require('http')
 const url = require('url')
 const fs = require("fs")
-const template = require('./lang/messages/en/user')
-const path = require('path')
 
 class Server {
     constructor(port) {
