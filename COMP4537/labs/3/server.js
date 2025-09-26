@@ -1,4 +1,4 @@
-const utils = require('./modules/utils.js')
+const utils = require('./modules/utils');
 const template = require('./lang/messages/en/user')
 const http = require('http')
 const url = require('url')
