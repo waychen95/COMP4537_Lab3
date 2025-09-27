@@ -30,7 +30,7 @@ class Server {
                 res.end(template.pnf_error)
             }
 
-        }).listen(this.port)
+        }).listen(this.port, '0.0.0.0')
 
         console.log(template.listening)
     }
